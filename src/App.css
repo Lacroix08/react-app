@@ -28,6 +28,11 @@
   color: #de0b34;
 }
 
+.App-link2 {
+  color: white;
+  font-size: calc(7px + 1vmin);
+}
+
 .social-container {
   background: #000103;
   padding: 25px 50px;

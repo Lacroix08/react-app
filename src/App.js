@@ -28,11 +28,13 @@ function App() {
           No Movies in Hell
 
         </a>
-   
+      
       
       
     <div class="social-container">
-      <p> Visit our Socials </p>
+      <p> Visit our socials </p>
+      
+     
       <a href="https://www.youtube.com/channel/UCJJ9qkofalVW5wi83ktE6kg"
         className="youtube social">
         <FontAwesomeIcon icon={faYoutube} size="2x" />
@@ -44,9 +46,20 @@ function App() {
         className="instagram social">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
+      
 </div>
+      <a
+          className="App-link2"
+          href="nomoviesinhell@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Contact us
+       </a>
 
   </header>
+     
+      
     </div>
   );
 }
